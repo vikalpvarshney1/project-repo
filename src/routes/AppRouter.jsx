@@ -6,7 +6,7 @@ export default function AppRouter() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="*" element={<Navigate to="/dashboard" replace />} />
       </Routes>
